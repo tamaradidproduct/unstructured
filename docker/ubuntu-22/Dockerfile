@@ -23,4 +23,6 @@ RUN source ~/.bashrc && pyenv virtualenv 3.10 unstructured && \
     make install-ingest-wikipedia && \
     make install-ingest-discord && \
     make install install-ingest-slack && \
-    make install-ingest-confluence
+    make install-ingest-confluence 
+
+EXPOSE 8000
